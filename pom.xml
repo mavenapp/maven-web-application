@@ -97,13 +97,13 @@
 	
 	    <repository>
 	      <id>wallmart</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <name>Praveen</name>
 	      <url>http://3.108.237.74:8081/wallmart/repository/wallmart-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>wallmart</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <name>Praveen </name>
 	      <url>http://3.108.237.74:8081/wallmart/repository/wallmart-snapshot/</url>
 	    </snapshotRepository>
 	    
