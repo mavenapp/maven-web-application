@@ -11,11 +11,7 @@ node
     { 
        sh "${mavenHome}/bin/mvn clean package"
       }
-   stage ('trigger')
- {
-   properties([pipelineTriggers([pollSCM('* * * * *')])])
- }
-    /* stage ('sonarQube')
+ /* stage ('sonarQube')
      { 
          sh "${mavenHome}/bin/mvn sonar:sonar"
      } 
