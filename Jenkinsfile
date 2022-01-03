@@ -15,9 +15,9 @@ node
      { 
          sh "${mavenHome}/bin/mvn sonar:sonar"
      } 
-     stage ('nexus')
+    //stage ('nexus')
      {
-         sh "${mavenHome}/bin/mvn clean deploy"
+         //sh "${mavenHome}/bin/mvn clean deploy"
      }
      stage ('tomcat')
      {
